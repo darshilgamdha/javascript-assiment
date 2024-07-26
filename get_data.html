@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get_data.html</title>
+</head>
+<body>
+    <h2 id="name"></h2>
+    <h2 id="email"></h2>
+    <h2 id="password"></h2>
+    <h2 id="age"></h2>
+
+    <script>
+        user_json = localStorage.getItem("data")
+        user = JSON.parse(user_json)
+        
+        document.getElementById("name").innerHTML = user.name;
+        document.getElementById("email").innerHTML = user.email;
+        document.getElementById("password").innerHTML = user.password;
+        document.getElementById("age").innerHTML = user.age;
+    </script>
+</body>
+</html>
