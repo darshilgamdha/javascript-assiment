@@ -6,6 +6,13 @@
     color: "blue",
     location: "city"
 }
-console.log(house.rooms);
-console.log(house.color);
-console.log(house.location);
+
+function updateColor(newColor) {
+    house.color = newColor;
+}
+
+updateColor('green');
+
+console.log(house.color); // 
+
+
