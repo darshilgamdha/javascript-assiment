@@ -1,0 +1,2 @@
+// Subclass and Override Method:
+// Task: Given a constructor Appliance with a prototype method calculatePowerUsage, write a subclass WashingMachine that inherits from Appliance and overrides the calculatePowerUsage method to calculate the power usage for a washing machine.
