@@ -7,14 +7,14 @@ class RailwayForm {
         
     }
     preview(){
-        alert(this.name + " : Your form is for train number :" + this.trainno + " and your address is " + this.address);
+        alert(this.name + " : Your form is for train number : " + this.trainno + " and your address is " + this.address);
     }
     submit(){
-        alert(this.name + " Your form is submitted for train number : " + this.trainno);
+        alert(this.name + " : Your form is submitted for train number : " + this.trainno);
     }
 
     cancel(){
-        alert(this.name + "  This form is cancelled for train number : " + this.trainno);  
+        alert(this.name + " : This form is cancelled for train number : " + this.trainno);  
         this.trainno = 0;   
     }
    }
