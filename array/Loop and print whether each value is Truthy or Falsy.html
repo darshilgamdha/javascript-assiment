@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let values = [true, false, "hi", "", 0, 42, null];
+        let truthyOrFalsy = [];
+
+        for (let val of values) {
+            if (val) {
+                truthyOrFalsy.push(`${val} is Truthy`);
+            } else {
+                truthyOrFalsy.push(`${val} is Falsy`);
+            }
+        }
+        console.log(truthyOrFalsy);
+    </script>
+</body>
+</html>

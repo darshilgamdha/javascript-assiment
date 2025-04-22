@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let mixed = [1, "apple", 3, "banana", 5];
+        let number = [];
+        for(let i=0;i<mixed.length;i++){
+            if(typeof mixed[i] === "number" ){
+                number.push(mixed[i]);            }
+        }
+        console.log(number);
+    </script>
+</body>
+</html>

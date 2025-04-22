@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let messy = ["", "clean", 0, 23, false, "data"];
+        let cleaned = [];
+        for (let i = 0; i < messy.length; i++) {
+            if (messy[i]) {
+                cleaned.push(messy[i]);
+            }
+        }
+        console.log(cleaned);
+
+        let messy1 = ["", "clean", 0, 23, false, "data"];
+        let cleaned1 = messy1.filter(Boolean); // filters out falsy values
+
+        console.log(cleaned1); // ["clean", 23, "data"]
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let values = [5, 12, 8, 20, 3];
+        let count = 0;
+
+        for(i=0;i<values.length;i++){
+            if(values[i]>10){
+                console.log(values[i]);
+                count++;
+                
+            }
+        }
+        console.log("element : " + count);
+
+        for(val of values){
+            if (val > 10){
+                console.log(val);
+                count++;
+            }
+        }
+        console.log("element : " + count);
+    </script>
+</body>
+</html>

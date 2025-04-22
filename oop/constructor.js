@@ -7,7 +7,7 @@ class RailwayForm {
         
     }
     preview(){
-        alert(this.name + " : Your form is for train number : " + this.trainno + " and your address is " + this.address);
+        alert(this.name + " : train number : " + this.trainno + " and address is " + this.address);
     }
     submit(){
         alert(this.name + " : Your form is submitted for train number : " + this.trainno);

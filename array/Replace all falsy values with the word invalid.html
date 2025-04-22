@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let data = [0, "pass", false, "ok", "", true];
+
+        for (let i = 0; i < data.length; i++) {
+            if (!data[i]) {
+                data[i] = "invalid";
+            }
+        }
+
+        console.log(data);
+
+    </script>
+</body>
+
+</html>
